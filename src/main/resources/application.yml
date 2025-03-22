@@ -1,6 +1,6 @@
 spring:
   redis:
-    host: localhost
+    host: 52.79.184.149
     port: 6379
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
