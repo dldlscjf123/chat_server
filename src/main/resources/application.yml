@@ -4,7 +4,8 @@ spring:
     port: 6379
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/chatdb?useSSL=false
+  #  url: jdbc:mysql://localhost:3306/chatdb?useSSL=false
+    url: jdbc:mysql:/52.79.184.149:3306/mydatabase?useSSL=false
     username: root
     password: 258025
   jpa:
@@ -12,7 +13,7 @@ spring:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     generate-ddl: true
     hibernate:
-      ddl-auto: validate
+      ddl-auto: update
     show-sql: true
 jwt:
 # chatserversecretaccesstokenchatserversecretaccesstokenchatserversecretaccesstoken
